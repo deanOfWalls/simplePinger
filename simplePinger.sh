@@ -22,7 +22,7 @@ while true; do
     echo "HTTP Status Code for $url: $http_code"
     
     # Wait 10s to send the next request, reset to 800 when done
-    sleep 10
+    sleep 800
   done
   echo "Ending iteration at $(date)" # Debug message
 done
